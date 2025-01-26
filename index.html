@@ -7,33 +7,91 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Document</title>
 </head>
 <body>
-    <header class="relative hero-header">
-        <div class="absolute inset-0 bg-black opacity-85 z-10 flex justify-between">
-            <div class="title">
-                <a href="#"><img src="img/logo.png" alt="Logo"></a>
+    <header class="relative hero-header flex">
+        <div class="absolute inset-0 bg-black opacity-85 flex justify-between w-full sm:pl-[90px] sm:pr-[80px]">
+            <div class="title sm:pt-[60px] pt-8 pl-8">
+                <a href="#"><img src="img/logo.png" class="w-[105px]" alt="Logo"></a>
             </div>
 
             <div class="">
-                <ul class="flex text-white header_list">
-                    <li class="px-5 text-[14px] text-[#333333] font-normal "><a href="#">HOME</a></li>
-                    <li class="px-5 text-[14px] text-[#333333] font-normal"><a href="#">ABOUT</a></li>
-                    <li class="px-5 text-[14px] text-[#333333] font-normal"><a href="#">SERVICE</a></li>
-                    <li class="px-5 text-[14px] text-[#333333] font-normal"><a href="#">PORTFOLIO</a></li>
-                    <li class="px-5 text-[14px] text-[#333333] font-normal"><a href="#">RESUME</a></li>
-                    <li class="px-5 text-[14px] text-[#333333] font-normal"><a href="#">BLOG</a></li>
-                    <li class="px-5 text-[14px] text-[#333333] font-normal"><a href="#">CONTACT</a></li>
-                    <li class="px-5 text-[14px] text-[#333333] font-normal"><a href="#">
-                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 50 50">
-                            <path d="M 5 8 A 2.0002 2.0002 0 1 0 5 12 L 45 12 A 2.0002 2.0002 0 1 0 45 8 L 5 8 z M 5 23 A 2.0002 2.0002 0 1 0 5 27 L 45 27 A 2.0002 2.0002 0 1 0 45 23 L 5 23 z M 5 38 A 2.0002 2.0002 0 1 0 5 42 L 45 42 A 2.0002 2.0002 0 1 0 45 38 L 5 38 z"></path>
-                        </svg>
-                    </a></li>
+                <ul class="sm:flex header_list sm:pt-[74px] hidden">
+                    <li class="px-[22px] text-[12px] text-white font-medium sm:hover:text-white"><a href="#">HOME</a></li>
+                    <li class="px-[22px] text-[12px] text-[#919191] font-medium sm:hover:text-white"><a href="#">ABOUT</a></li>
+                    <li class="px-[22px] text-[12px] text-[#919191] font-medium sm:hover:text-white"><a href="#">SERVICE</a></li>
+                    <li class="px-[22px] text-[12px] text-[#919191] font-medium sm:hover:text-white"><a href="#">PORTFOLIO</a></li>
+                    <li class="px-[22px] text-[12px] text-[#919191] font-medium sm:hover:text-white"><a href="#">RESUME</a></li>
+                    <li class="px-[22px] text-[12px] text-[#919191] font-medium sm:hover:text-white"><a href="#">BLOG</a></li>
+                    <li class="px-[22px] text-[12px] text-[#919191] font-medium sm:hover:text-white"><a href="#">CONTACT</a></li>
+                    <li class="px-[22px] text-[12px] text-[#919191] font-medium sm:hover:text-white ">
+                        <a href="#"><i class="fa-solid fa-bars"></i></a>
+                    </li>
                 </ul>
+
+                <button>
+                    
+                </button>
             </div>
         </div>
+
+
+        <div class="absolute self-center">
+            <p class="text-[24px] font-bold text-white tracking-[2px] pl-[215px] sm:pl-[645px]">Hello,</p>
+            <p class="text-white text-[45px] font-bold pl-[45px] sm:text-[72px] sm:pl-[350px]">I'm Johny Legend</p>
+
+            <div class="gird gird-cols-5 flex text-[#AAAAAA] text-[12px] tracking-[2.5px] font-semibold hero_div pl-12 pt-3 sm:pl-[490px]">
+                <div class="px-2"><p>DESIGNER</p></div>
+                <div class="px-2"><img src="img/gfgrg.png" alt=""></div>
+                <div class="px-2"><P>DEVELOPER</P></div>
+                <div class="px-2"><img src="img/gfgrg.png" alt=""></div>
+                <div class="px-2"><P>PHOTOGRAPHER</P></div>
+            </div>
+        </div>
+
+        <div class="absolute flex gap-3 sm:gap-5 pl-[128px] pt-[535px] sm:pl-[555px]">
+            <a
+              href="#"
+              class="w-10 h-10 flex items-center justify-center rounded-full border border-white text-white hover:bg-white hover:text-black transition"
+            >
+              <i class="fab fa-instagram"></i>
+            </a>
+
+            <a
+              href="#"
+              class="w-10 h-10 flex items-center justify-center rounded-full border border-white text-white hover:bg-white hover:text-black transition"
+            >
+              <i class="fab fa-dribbble"></i>
+            </a>
+
+            <a
+              href="#"
+              class="w-10 h-10 flex items-center justify-center rounded-full border border-white text-white hover:bg-white hover:text-black transition"
+            >
+              <i class="fab fa-tumblr"></i>
+            </a>
+
+            <a
+              href="#"
+              class="w-10 h-10 flex items-center justify-center rounded-full border border-white text-white hover:bg-white hover:text-black transition"
+            >
+              <i class="fab fa-twitter"></i>
+            </a>
+
+            <a
+              href="#"
+              class="w-10 h-10 flex items-center justify-center rounded-full border border-white text-white hover:bg-white hover:text-black transition"
+            >
+              <i class="fab fa-vimeo"></i>
+            </a>
+          </div>
+          <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+      </div>
+      
     </header>
 </body>
 </html>

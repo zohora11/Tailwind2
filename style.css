@@ -1,3 +1,13 @@
+*{
+	box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Montserrat", serif;
+}
+
 .hero-header {
     background-image: url('./img/hero.jpg');
     background-size: cover;
@@ -7,5 +17,18 @@
 }
 
 .header_list{
+    font-family: "Montserrat", serif;
+    letter-spacing: 1.5px;
+}
+
+.hero_div{
     font-family: "Lato", serif;
+}
+
+.img{
+    color: white;
+}
+
+.hover:img{
+    color: white;
 }
