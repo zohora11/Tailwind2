@@ -16,26 +16,7 @@ dots.forEach((dot, index) => {
   });
 });
 
-// JavaScript to open the image in a modal on button click
-const buttons = document.querySelectorAll('.group button'); // Get all buttons
-const modal = document.getElementById('imageModal'); // Get modal element
-const modalImage = document.getElementById('modalImage'); // Get the modal image
-const closeModal = document.getElementById('closeModal'); // Get close button
 
-// Loop through all the buttons
-buttons.forEach(button => {
-  button.addEventListener('click', function() {
-    // Find the image associated with the clicked button
-    const img = button.closest('.group').querySelector('img');
-    modalImage.src = img.src; // Set the modal image source to the clicked image's source
-    modal.classList.remove('hidden'); // Show the modal by removing the 'hidden' class
-  });
-});
-
-// Close the modal when the close button is clicked
-closeModal.addEventListener('click', function() {
-  modal.classList.add('hidden'); // Hide the modal by adding the 'hidden' class again
-});
 
 
 
