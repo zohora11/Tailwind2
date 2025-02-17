@@ -660,12 +660,6 @@
       </div>
     </div>
 
-    <div class="grid grid-cols-1 sm:grid-cols-2 sm:grid-rows-1">
-      <div class="bg-blue-500 text-white p-6 text-center rounded-lg">Box 1</div>
-      <div class="bg-green-500 text-white p-6 text-center rounded-lg">Box 2</div>
-    </div>
-
-
     <div class="bg-[#121212] pb-24">
       <h2 class="font-['Montserrat',_serif] text-white text-[36px] font-bold flex justify-center mb-12 pt-[100px]">Blog Post</h2>
       <div class="grid gap-8 px-8 sm:grid-cols-1 lg:grid-cols-[31.5%_auto] sm:px-[90px]">
@@ -746,31 +740,39 @@
         START PROJECT
       </button>
 
-      <div class="grid grid-cols-1 grid-rows-3 sm:grid-cols-3 sm:grid-rows-1 bg-[#121212] mx-8 sm:mx-[90px] mt-28 sm:pt-10">
+      <div class="grid grid-cols-1 grid-rows-3 sm:grid-cols-3 sm:grid-rows-1 bg-[#121212] mx-8 sm:mx-[90px] sm:px-[60px] mt-28 sm:pt-10 ">
         <div class="py-7">
           <div class="flex justify-center"><img src="img/s6.jpg" class=""></div>
-          <p class="text-[#AAAAAA] header_list text-[16px] leading-[24pc font-medium] text-center pt-4">+0044 545 989 626<br>
+          <p class="text-[#AAAAAA] header_list text-[16px] sm:text-[20px] leading-[24pc font-medium] text-center pt-4">+0044 545 989 626<br>
             +8801 909 130 830</p>
         </div>
 
         <div class="py-7">
           <div class="flex justify-center"><img src="img/s7.jpg" class=""></div>
-          <p class="text-[#AAAAAA] header_list text-[16px] leading-[24pc font-medium] text-center pt-4">28 Green Tower, Street Name,<br>New York City, USA</p>
+          <p class="text-[#AAAAAA] header_list text-[16px] sm:text-[20px] leading-[24pc font-medium] text-center pt-4">28 Green Tower, Street Name,<br>New York City, USA</p>
         </div>
 
         <div class="py-7">
           <div class="flex justify-center"><img src="img/s8.jpg" class=""></div>
-          <p class="text-[#AAAAAA] header_list text-[16px] leading-[24pc font-medium] text-center pt-4">www.marveltheme.com<br>www.yourmail@gmail.com</p>
+          <p class="text-[#AAAAAA] header_list text-[16px] sm:text-[20px] leading-[24pc font-medium] text-center pt-4">www.marveltheme.com<br>www.yourmail@gmail.com</p>
         </div>
       </div>
 
-      <div class="bg-[#121212] mx-8 flex flex-col gap-6 pt-7 px-4 pb-7">
-        <input type="text" placeholder="Your Name" class="w-full p-2.5 border border-[#5E6056] bg-[#121212] text-[#AAAAAA] font-['Open_Sans',_sans-serif] text-[14px] placeholder-[#5E6056] focus:outline-none focus:border-[#AAAAAA]">
-        <input type="email" placeholder="Your Email" class="w-full p-2.5 border border-[#5E6056] bg-[#121212] text-[#AAAAAA] font-['Open_Sans',_sans-serif] text-[14px] placeholder-[#5E6056] focus:outline-none focus:border-[#AAAAAA]">
-        <input type="text" placeholder="Your Budget" class="w-full p-2.5 border border-[#5E6056] bg-[#121212] text-[#AAAAAA] font-['Open_Sans',_sans-serif] text-[14px] placeholder-[#5E6056] focus:outline-none focus:border-[#AAAAAA]">
-        <textarea placeholder="Project Description" class="w-full p-2.5 border border-[#5E6056] bg-[#121212] text-[#AAAAAA] font-['Open_Sans',_sans-serif] text-[14px] placeholder-[#5E6056] focus:outline-none focus:border-[#AAAAAA] h-40"></textarea>
+      <div class="bg-[#121212] mx-8 sm:mx-[90px] flex flex-col gap-6 pt-7 px-4 pb-8 sm:pb-[70px] sm:px-[70px]">
 
-        <button class="bg-white text-black text-[12px] tracking-[2px] header_list font-normal border border-[white] border-[2px] py-[11px] px-[30px] hover:bg-black hover:text-white transition ml-auto  mt-3">
+        <div class="grid grid-cols-1 md:grid-cols-[40%_60%] gap-8">
+          <div class="space-y-7">
+            <input type="text" placeholder="Your Name" class="w-full p-2.5 border border-[#5E6056] bg-[#121212] text-[#AAAAAA] font-['Open_Sans',_sans-serif] text-[14px] placeholder-[#5E6056] focus:outline-none focus:border-[#AAAAAA]">
+            <input type="email" placeholder="Your Email" class="w-full p-2.5 border border-[#5E6056] bg-[#121212] text-[#AAAAAA] font-['Open_Sans',_sans-serif] text-[14px] placeholder-[#5E6056] focus:outline-none focus:border-[#AAAAAA]">
+            <input type="text" placeholder="Your Budget" class="w-full p-2.5 border border-[#5E6056] bg-[#121212] text-[#AAAAAA] font-['Open_Sans',_sans-serif] text-[14px] placeholder-[#5E6056] focus:outline-none focus:border-[#AAAAAA]">
+          </div>
+
+          <div class="sm:mr-[35px]">
+            <textarea placeholder="Project Description" class="w-full p-2.5 border border-[#5E6056] bg-[#121212] text-[#AAAAAA] font-['Open_Sans',_sans-serif] text-[14px] placeholder-[#5E6056] focus:outline-none focus:border-[#AAAAAA] h-40 sm:h-[185px]"></textarea>
+          </div>
+        </div>
+      
+        <button class="bg-white text-black text-[12px] tracking-[2px] header_list font-normal border border-[white] border-[2px] py-[11px] px-[30px] hover:bg-[#121212] hover:text-white transition ml-auto  mt-3 sm:mt-1">
           SEND MESSAGE
         </button>
       </div>
@@ -812,7 +814,7 @@
         </a>
       </div>
 
-      <p class="text-[#AAAAAA] text-[16px] header_list leading-[24px] font-normal text-center pt-11 px-10 pb-[32px]">
+      <p class="text-[#AAAAAA] text-[16px] sm:text-[18px] header_list leading-[24px] font-normal text-center pt-11 px-10 pb-[32px]">
         Copyright @ 2017 <a href="#" class="text-white">MarvelTheme</a> all right reserved, designed by <a href="#" class="text-white">M S Newaz</a>
       </p>
     </div>
